@@ -6,3 +6,8 @@ public static double ObliczSrednia(int[] liczby)
     return liczby.Average();
 }
 
+public static int ZnajdzMaksymalnaWartosc(int[] liczby)
+{
+    return liczby.Max();
+}
+
