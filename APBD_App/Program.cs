@@ -3,12 +3,12 @@ Console.WriteLine("Hello Jurassic World 3");
 
 public static double ObliczSrednia(int[] liczby)
 {
-    double sum = 0;
+    double total = 0;
     foreach (var liczba in liczby)
     {
-        sum += liczba;
+        total += liczba;
     }
-    return sum / liczby.Length;
+    return total / liczby.Length;
 }
 
 
