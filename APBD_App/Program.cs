@@ -3,8 +3,14 @@ Console.WriteLine("Hello Jurassic World 3");
 
 public static double ObliczSrednia(int[] liczby)
 {
-    return liczby.Average();
+    double sum = 0;
+    foreach (var liczba in liczby)
+    {
+        sum += liczba;
+    }
+    return sum / liczby.Length;
 }
+
 
 public static int ZnajdzMaksymalnaWartosc(int[] liczby)
 {
